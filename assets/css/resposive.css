@@ -1,0 +1,90 @@
+/* ================ banner resposive start ============= */
+/* Responsive styles */
+@media (max-width: 768px) {
+    #banner {
+      margin-top: 20px;
+    }
+    
+    #banner .container .row .content h2 {
+      font-size: 38px; /* Reduce heading size */
+      margin: 10px 0 20px 0;
+    }
+    #banner .container .row .content h3 {
+      font-size: 20px;
+    }
+    #banner .container .row .content p {
+      font-size: 14px;
+      width: 95%;
+    }
+    #banner .container .row .content .btn {
+      font-size: 10px;
+      padding: 10px 15px;
+      margin: 15px 0;
+    }
+    #banner .container .row .content .btn.btn-outline {
+      margin-left: 0;
+      padding: 10px 20px;
+    
+    }
+    #banner .link-grp {
+      margin-top: 40px;
+    }
+    #banner .link-grp span {
+      font-size: 18px;
+    }
+    #banner .social-icon a {
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      margin: 0 8px;
+    }
+    #banner .mouse {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #banner {
+        margin-top: 20px;
+      }
+    #banner .container .row .content h2 {
+      font-size: 36px; /* Further reduce heading size */
+    }
+    #banner .container .row .content h3 {
+      font-size: 18px;
+    }
+    #banner .container .row .content p {
+      font-size: 16px;
+      line-height: 150%;
+    }
+    #banner .container .row .content .btn {
+      font-size: 16px;
+      padding: 10px 30px;
+    }
+    #banner .link-grp span {
+      font-size: 16px;
+    }
+    #banner .social-icon a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+
+  /* Responsive adjustments banner img*/
+@media (max-width: 768px) {
+  
+ #banner   .image-fluid img {
+      max-width: 80%; /* Reduce image size for tablets */
+      margin: 0 auto; /* Center the image */
+    }
+  }
+  
+  @media (max-width: 480px) {
+   
+  #banner  .image-fluid img {
+      max-width: 50%; /* Further reduce image size for smaller devices */
+      margin: 0 auto;
+    }
+  }
+/* ================ banner resposive end ============== */

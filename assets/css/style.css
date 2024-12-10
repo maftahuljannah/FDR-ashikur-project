@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:  var(--font-family);
+}
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+  }
+/* css common */
+
+/* ================ navbar start ============= */
+#mynavbar ul li a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px  22px 5px;
+    transition: 0.3s;
+}
+#mynavbar ul li a:hover{
+    border-bottom: 1px solid #353535;
+}
+#mynavbar ul li a.active{
+    border-bottom: 1px solid #353535;   
+}
+nav .navbar-toggler{
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 29px;
+    padding: 0;
+}
+/* ================ navbar end ============== */
+
+/* ================ banner start ============= */
+#banner{
+    margin-top: 100px;
+}
+#banner .container .row{
+  align-items: center;
+}
+#banner .image-fluid img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    text-align: center;
+  }
+#banner .container .row .content h3{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;    
+} 
+#banner .container .row .content h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;  
+    margin: 15px 0 25px 0;  
+}
+#banner .container .row .content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;    
+}
+
+#banner .container .row .content .btn{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    background: #fc0;
+    padding: 18px 53px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#banner .container .row .content .btn span{
+    margin-left: 11px;
+}
+
+#banner .container .row .content .btn.btn-outline{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    margin-left: 43px;
+}
+#banner .link-grp{
+    margin-top: 66px;
+}
+#banner .link-grp span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;  
+    margin-right: 16px;  
+}
+#banner .social-icon  a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #f4f3f3;
+    margin: 0 16px;
+    color: #000;
+}
+#banner .mouse{
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    right: 50%;
+}
+
+/* ================ banner end ============== */
