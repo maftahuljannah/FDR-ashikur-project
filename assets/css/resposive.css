@@ -88,3 +88,34 @@
     }
   }
 /* ================ banner resposive end ============== */
+
+/*::::::::::: card Responsive styles ::::::::::::::::::*/
+/* ================ Responsive Styles ============== */
+@media (max-width: 1024px) {
+  #card{
+    margin-top: 50px;
+  }
+  #card .container .row .col-lg-4 {
+      width: calc(50% - 32px); /* 2 columns layout */
+      margin: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #card{
+    margin-top: 50px;
+  }
+  #card .container .row .col-lg-4 {
+      width: calc(100% - 32px); /* Single column layout */
+      margin: 16px auto; /* Center align on smaller devices */
+  }
+
+  #card .container .row .col-lg-4 h2 {
+      font-size: 20px;
+  }
+
+  #card .container .row .col-lg-4 p {
+      font-size: 14px;
+  }
+}
+/* :::::::::::::::::::::: card end :::::::::::::::::::: */

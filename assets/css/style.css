@@ -127,8 +127,96 @@ nav .navbar-toggler{
 #banner .mouse{
     display: block;
     position: absolute;
-    bottom: -11px;
+    bottom: 11px;
     right: 50%;
 }
-
 /* ================ banner end ============== */
+
+/* ================ card start ============= */
+#card{
+    margin-top: 150px;
+}
+#card .container .row .col-lg-4{
+    text-align: center;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: calc(33.33% - 32px);
+    margin: 0 16px;
+}
+#card .container .row .col-lg-4 h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;    
+}
+#card .container .row .col-lg-4 p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: #7a7a7a;   
+}
+/* ================ card end ============== */
+
+/* ================ mobile banner start ============= */
+#mobile-banner{
+    margin-top: 165px;
+}
+#mobile-banner .container{
+ background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+ border-radius: 30px;
+}
+#mobile-banner .container .row .col-lg-6 h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;   
+}
+#mobile-banner .container .row{
+    align-items: center;
+}
+#mobile-banner .container .row .col-lg-6 p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin: 21px 0 35px 0; 
+    width: 80%; 
+}
+#mobile-banner .container .row .col-lg-6 a{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    padding: 18px 38px;   
+    border: 1px solid #000;
+    border-radius: 20px;  
+}
+#mobile-banner .container{
+    position: relative;
+}
+#mobile-banner .container .shape{
+    position: absolute;
+    top: -6%;
+    right: 6%;
+    display: block;
+}
+@media (max-width: 768px){
+    #mobile-banner{
+        margin-top: 50px;
+    }
+    #mobile-banner .container .shape{
+        display: none;
+    }  
+}
+/* ================ mobile banner end ============== */
+
