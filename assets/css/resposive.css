@@ -3,6 +3,7 @@
 @media (max-width: 768px) {
     #banner {
       margin-top: 20px;
+      overflow: hidden;
     }
     
     #banner .container .row .content h2 {
@@ -46,6 +47,7 @@
   @media (max-width: 480px) {
     #banner {
         margin-top: 20px;
+        overflow: hidden;
       }
     #banner .container .row .content h2 {
       font-size: 36px; /* Further reduce heading size */
@@ -73,6 +75,9 @@
 
   /* Responsive adjustments banner img*/
 @media (max-width: 768px) {
+  #banner{
+    overflow: hidden;
+  }
   
  #banner   .image-fluid img {
       max-width: 80%; /* Reduce image size for tablets */
@@ -81,6 +86,9 @@
   }
   
   @media (max-width: 480px) {
+    #banner{
+      overflow: hidden;
+    }
    
   #banner  .image-fluid img {
       max-width: 50%; /* Further reduce image size for smaller devices */
@@ -89,14 +97,74 @@
   }
 /* ================ banner resposive end ============== */
 
+/* ================ about start ============= */
+@media (max-width: 768px) {
+  #about{
+    overflow: hidden;
+  }
+  #about img {
+    max-width: 50%; /* Further reduce image size for smaller devices */
+    margin: 0 auto;
+  }
+  #about {
+      margin-top: 50px; /* Reduce top margin for smaller screens */
+  }
+
+  #about .container .row .content h2 {
+      font-size: 32px; /* Further adjust heading size */
+  }
+
+  #about .container .row .content p {
+      font-size: 16px; /* Adjust paragraph size */
+      margin: 15px 0 30px 0; /* Adjust margins */
+  }
+
+  #about .container .row .content a {
+      font-size: 14px; /* Adjust button text size */
+      padding: 10px 25px; /* Adjust button padding */
+  }
+
+  #about .container .shap {
+      right: 20px; /* Adjust shape position */
+  }
+}
+
+@media (max-width: 480px) {
+  #about{
+    overflow: hidden;
+  }
+  #about img {
+    max-width: 50%; /* Further reduce image size for smaller devices */
+    margin: 0 auto;
+  }
+  #about .container .row .content h2 {
+      font-size: 28px; /* Further reduce heading size */
+  }
+
+  #about .container .row .content p {
+      font-size: 12px; /* Further adjust paragraph size */
+  }
+
+  #about .container .row .content a {
+      font-size: 12px; /* Further adjust button text size */
+      padding: 8px 20px; /* Further adjust button padding */
+  }
+
+  #about .container .shap {
+      right: 10px; /* Adjust shape position for very small screens */
+  }
+}
+/* ================ about end ============== */
+
 /*::::::::::: card Responsive styles ::::::::::::::::::*/
-/* ================ Responsive Styles ============== */
+
 @media (max-width: 1024px) {
   #card{
     margin-top: 50px;
+    overflow: hidden;
   }
   #card .container .row .col-lg-4 {
-      width: calc(50% - 32px); /* 2 columns layout */
+      width: calc(100% - 32px); /* 2 columns layout */
       margin: 0 16px;
   }
 }
@@ -107,15 +175,87 @@
   }
   #card .container .row .col-lg-4 {
       width: calc(100% - 32px); /* Single column layout */
-      margin: 16px auto; /* Center align on smaller devices */
+      margin: 0 16px; /* Center align on smaller devices */
   }
 
   #card .container .row .col-lg-4 h2 {
-      font-size: 20px;
+      font-size: 17px;
   }
 
   #card .container .row .col-lg-4 p {
-      font-size: 14px;
+      font-size: 11px;
   }
 }
 /* :::::::::::::::::::::: card end :::::::::::::::::::: */
+/* ================ mobile banner start ============= */
+@media (max-width: 768px){
+  #mobile-banner img {
+    max-width: 80%; /* Further reduce image size for smaller devices */
+    margin: 0 auto;
+  }
+  #mobile-banner{
+      margin-top: 50px;
+  }
+  #mobile-banner .container .shape{
+      display: none;
+  }  
+  #mobile-banner .container .row .col-lg-6 h2 {
+      font-size: 30px; /* Adjust heading size */
+  }
+
+  #mobile-banner .container .row .col-lg-6 p {
+      font-size: 14px; /* Adjust paragraph size */
+      margin: 10px 0 20px 0; /* Reduce margins */
+  }
+
+  #mobile-banner .container .row .col-lg-6 a {
+      font-size: 14px; /* Adjust button text size */
+      padding: 12px 25px; /* Adjust button padding */
+  }
+
+  #mobile-banner .container .shape {
+      display: none; /* Hide shape on smaller screens */
+  }
+}
+@media (max-width: 480px) {
+  #mobile-banner img {
+    max-width: 80%; /* Further reduce image size for smaller devices */
+    margin: 0 auto;
+  }
+  #mobile-banner {
+      margin-top: 50px; /* Further reduce top margin */
+  }
+
+  #mobile-banner .container .row .col-lg-6 h2 {
+      font-size: 26px; /* Further adjust heading size */
+  }
+
+  #mobile-banner .container .row .col-lg-6 p {
+      font-size: 12px; /* Adjust paragraph size */
+      margin: 8px 0 15px 0; /* Adjust margins */
+  }
+
+  #mobile-banner .container .row .col-lg-6 a {
+      font-size: 12px; /* Adjust button text size */
+      padding: 10px 20px; /* Adjust button padding */
+  }
+}
+/* ================ mobile banner end ============== */
+
+/* ================ help start ============= */
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #help .container .col-lg-6 h2,
+  #help .container .col-lg-6 p,
+  #help .container .stats {
+      text-align: center;
+  }
+  #help .container .service-card {
+      flex-direction: column;
+      text-align: center;
+  }
+  #help .container .service-card .test {
+      margin-left: 0;
+  }
+}
+/* ================ help end ============== */

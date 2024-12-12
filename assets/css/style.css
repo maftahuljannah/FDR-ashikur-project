@@ -132,6 +132,50 @@ nav .navbar-toggler{
 }
 /* ================ banner end ============== */
 
+/* ================ About start ============= */
+#about{
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 104px;
+    position: relative;
+}
+#about .container .row{
+    align-items: center;
+}
+
+#about .container .row .content h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;    
+}
+#about .container .row .content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin: 26px 0 54px 0;    
+}
+#about .container .row .content a{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535; 
+    padding: 17px 43px;
+    border: 1px solid #000;
+    border-radius: 20px;      
+}
+#about .container .shap{
+    position: absolute;
+    bottom: 0;
+    right: 74px;
+}
+/* ================ About end ============== */
+
 /* ================ card start ============= */
 #card{
     margin-top: 150px;
@@ -210,13 +254,74 @@ nav .navbar-toggler{
     right: 6%;
     display: block;
 }
-@media (max-width: 768px){
-    #mobile-banner{
-        margin-top: 50px;
-    }
-    #mobile-banner .container .shape{
-        display: none;
-    }  
-}
+
 /* ================ mobile banner end ============== */
+
+/* ================ help start ============= */
+#help{
+    margin-top: 100px;
+}
+#help .container .service-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 41px;
+    display: flex;
+    align-items: center;
+}
+#help .container .service-card .test h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;    
+}
+#help .container .service-card .test p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;   
+}
+#help .container .service-card .test{
+    margin-left: 18px;
+}
+#help .container .co-lg-6 h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535; 
+}
+#help .container .row{
+    justify-content: space-between;
+}
+#help .container .col-lg-6 p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;  
+    margin-top: 26px;
+    padding: 10px 15px;
+}
+
+#help .container .stats{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+    margin-top: 32px;     
+}
+#help .container .stats small{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10%;
+    color: #353535;   
+}
+/* ================ help end ============== */
 
