@@ -600,7 +600,57 @@ nav .navbar-toggler{
     color: #353535;    
 }
 #feedback .container .text p span{
-    font-size: 16px;
-   
+    font-size: 16px; 
 }
 /* ================ clint  feedback end ============== */
+
+/* ================ blog start ============= */
+#blog{
+    margin-top: 91px;
+}
+#blog .container .heading h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: right;
+    color: #353535;   
+}
+#blog .box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#blog .box p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #7a7a7a;    
+}
+#blog .box p span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #353535; 
+    margin-left: 15px;   
+}
+#blog .box h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535; 
+    margin-top: 10px;   
+}
+#blog .box h5{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;  
+    margin-top: 75px;  
+}
+/* ================ blog end ============== */
