@@ -49,6 +49,7 @@ nav .navbar-toggler{
 /* ================ banner start ============= */
 #banner{
     margin-top: 100px;
+    position: relative;
 }
 #banner .container .row{
   align-items: center;
@@ -92,6 +93,11 @@ nav .navbar-toggler{
     border-radius: 20px;
     margin-top: 20px;
 }
+#banner .container .row .content .btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;   
+}
 #banner .container .row .content .btn span{
     margin-left: 11px;
 }
@@ -102,6 +108,8 @@ nav .navbar-toggler{
     border: 1px solid #000;
     margin-left: 43px;
 }
+
+
 #banner .link-grp{
     margin-top: 66px;
 }
@@ -126,8 +134,8 @@ nav .navbar-toggler{
 }
 #banner .mouse{
     display: block;
-    position: absolute;
     bottom: 0;
+    position: absolute;
     right: 50%;
 }
 /* ================ banner end ============== */
@@ -172,7 +180,8 @@ nav .navbar-toggler{
 #about .container .shap{
     position: absolute;
     bottom: 0;
-    right: 74px;
+    right: 20%;
+    display: block;
 }
 /* ================ About end ============== */
 
@@ -325,3 +334,273 @@ nav .navbar-toggler{
 }
 /* ================ help end ============== */
 
+/* ================ work experiance start ============= */
+#work-experiance{
+    margin-top: 90px;
+    
+}
+#work-experiance .heading h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;    
+}
+#work-experiance .timeline h4{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;    
+}
+#work-experiance .timeline .date h4{
+    font-size: 20px;
+}
+#work-experiance .timeline h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;   
+}
+#work-experiance .timeline .experiance p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a; 
+    margin-top: 12px; 
+}
+#work-experiance .timeline .date p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+    margin-top: 16px;
+}
+#work-experiance .timelinewrapper{
+    margin-top: 79px;
+}
+#work-experiance .timeline .date{
+    border-right: 2px dashed #7a7a7a;
+    padding-bottom: 140px;
+    position: relative;
+}
+ .timeline .date::before{
+    content: '';
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    background-color: #fff;
+
+}
+.timeline .date::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px dashed #7a7a7a;
+    background-color: #52ab70;;
+
+}
+.timeline.red .date::after{
+    background-color: #f17676;
+}
+.timeline.yellow .date::after{
+    background-color:  #ffd233;;
+}
+/* ================ work experiance end ============== */
+
+/* ================ expert areas start ============= */
+#expert{
+    margin-top: 130px;
+}
+#expert .container .content h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535; 
+    margin-bottom: 40px;  
+}
+#expert .container .content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a; 
+    margin-bottom: 14px;  
+}
+#expert .container .content a{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    border-radius: 12px;
+    background-color: #fc0;  
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+#expert .container .content a span{
+    margin-left: 11px;
+}
+#expert .container .content a:hover{
+    background-color: #f1c40f;
+}
+#expert .container .row .btn{
+    border: 1px solid transparent;  
+    padding: 16px 65px;  
+}
+#expert .container .row .btn.active{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+#expert .progresswrapper{
+    margin-top: 38px;
+}
+#expert .progresswrapper .label{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;  
+}  
+#expert .progresswrapper .progressbar{
+    max-width: 380px;
+    height: 6px;
+    border-radius: 50px;
+    background-color:  #d9d9d9;;
+}
+#expert .progresswrapper .progresscnt{
+    height: 6px;
+    background-color: #f16500;
+    border-radius: 50px;
+    text-align: right;
+    position: relative;
+}
+#expert .progresswrapper .progresscnt.photo{
+    background: #03249b;
+}
+#expert .progresswrapper .progresscnt.XD{
+    background: #700d60;
+}
+#expert .progresswrapper .progresscnt.Illustrator{
+    background: #234bda;
+}
+#expert .progresswrapper .progresscnt span{
+    position: absolute;
+    right: 0;
+    margin-top: -43px;
+}
+/* ================ expert areas end ============== */
+
+/* ================ Services start ============= */
+#service{
+    margin-top: 100px;
+    background: #fff7d5;
+    padding: 75px 0;
+}
+#service .container .heading h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+}
+#service .container .heading p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 180%;
+    color: #7a7a7a;   
+}
+#service .container .row .box {
+    text-align: center;
+    padding: 70px 30px;
+    border: 0.10px solid #353535;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    margin-top: 73px;
+    width: 350px;
+    height: 422px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#service .container .row .box:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+    transform: scale(1.06); /* Scales the box smoothly */
+}
+
+#service .container .row .box h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;   
+    margin-top: 30px; 
+}
+#service .container .row .box p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    color: #7a7a7a;  
+    margin-top: 10px; 
+}
+/* ================ Services end ============== */
+
+/* ================ clint feedback start ============= */
+#feedback{
+    margin-top: 91px;
+}
+#feedback .heading h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    color: #353535;    
+}
+#feedback .heading p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+    margin-top: 13px;    
+}
+#feedback .container .row{
+    align-items: center;
+    margin-top: 63px;
+}
+
+#feedback .container .text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;   
+}
+#feedback .container .text h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: #353535;    
+}
+#feedback .container .text p span{
+    font-size: 16px;
+   
+}
+/* ================ clint  feedback end ============== */

@@ -127,6 +127,9 @@
   #about .container .shap {
       right: 20px; /* Adjust shape position */
   }
+  #about .container .shap{
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -152,6 +155,9 @@
 
   #about .container .shap {
       right: 10px; /* Adjust shape position for very small screens */
+  }
+  #about .container .shap{
+    display: none;
   }
 }
 /* ================ about end ============== */
@@ -259,3 +265,246 @@
   }
 }
 /* ================ help end ============== */
+
+/* ================ work experiance start ============= */
+@media (max-width: 768px) {
+  
+  #work-experiance .timeline{
+    border-left: 2px dashed #7a7a7a;
+    padding-left: 30px;
+    max-width: 90%;
+    margin: auto;
+}
+#work-experiance .timeline .date{
+  border-right: none;
+  padding-bottom: 12px;
+}
+.timeline .date::before{
+  right: auto;
+  left: -39px;
+
+}
+.timeline .date::after{
+  right: auto;
+  left: -28px;
+}
+}
+/* ================ work experianceend ============== */
+
+/* ================ expart areas start ============= */
+/* Responsive Design for Medium Devices (992px and below) */
+@media (max-width: 992px) {
+  #expert {
+      margin-top: 80px;
+  }
+
+  #expert .container .content h2 {
+      font-size: 40px; /* Smaller heading */
+      text-align: center; /* Center align for better visuals */
+  }
+
+  #expert .container .content p {
+      font-size: 18px; /* Adjust paragraph size */
+      line-height: 180%;
+      text-align: center;
+  }
+
+  #expert .container .content a {
+      padding: 8px 20px; /* Reduce button padding */
+      font-size: 14px; /* Smaller button text */
+  }
+
+  #expert .progresswrapper .progressbar {
+      max-width: 100%; /* Allow progress bars to expand */
+  }
+}
+
+/* Responsive Design for Small Devices (768px and below) */
+@media (max-width: 768px) {
+  #expert .skills{
+    margin-top: 40px;
+}
+  #expert .container .content h2 {
+      font-size: 32px;
+  }
+
+  #expert .container .content p {
+      font-size: 16px;
+      line-height: 160%;
+  }
+
+  #expert .container .row .btn {
+      padding: 12px 30px; /* Adjust button padding */
+  }
+
+  #expert .progresswrapper {
+      margin-top: 20px; /* Reduce spacing */
+  }
+
+  #expert .progresswrapper .label {
+      font-size: 16px;
+  }
+
+  #expert .progresswrapper .progresscnt span {
+      margin-top: -35px; /* Adjust label positioning */
+  }
+}
+
+/* Responsive Design for Extra Small Devices (576px and below) */
+@media (max-width: 576px) {
+  #expert {
+      margin-top: 60px;
+  }
+
+  #expert .container .content h2 {
+      font-size: 28px; /* Smaller heading */
+      margin-bottom: 20px;
+  }
+
+  #expert .container .content p {
+      font-size: 14px; /* Smaller text */
+  }
+
+  #expert .container .content a {
+      font-size: 12px;
+      padding: 6px 15px;
+  }
+
+  #expert .progresswrapper .label {
+      font-size: 14px;
+  }
+
+  #expert .progresswrapper .progresscnt span {
+      margin-top: -30px;
+      font-size: 12px;
+  }
+}
+/* ================ expert areas end ============== */
+
+/* ================ services start ============= */
+/* Responsive Styles */
+
+/* Medium Devices (Tablets) */
+@media (max-width: 992px) {
+  #service .container .heading h2 {
+      font-size: 36px;
+  }
+
+  #service .container .heading p {
+      font-size: 16px;
+  }
+
+  #service .container .row .box {
+      width: 45%; /* Two boxes side by side */
+      margin: 20px auto;
+  }
+}
+
+/* Small Devices (Mobile) */
+@media (max-width: 768px) {
+  #service .container .heading h2 {
+      font-size: 30px;
+  }
+
+  #service .container .heading p {
+      font-size: 14px;
+  }
+
+  #service .container .row .box {
+      width: 100%; /* Single box per row */
+      margin: 20px auto;
+      padding: 30px 15px; /* Reduce padding */
+  }
+}
+
+/* ================ services end ============== */
+
+/* ================ clint feedback start ============= */
+/* Responsive Design for Smaller Screens */
+@media (max-width: 992px) {
+  #feedback .heading h2 {
+      font-size: 40px; /* Adjust heading size */
+  }
+
+  #feedback .heading p {
+      font-size: 16px; /* Adjust paragraph size */
+  }
+
+  #feedback .container .text h4 {
+      font-size: 20px; /* Smaller font for heading */
+  }
+
+  #feedback .container .text p {
+      font-size: 16px; /* Smaller font for text */
+      line-height: 180%; /* Adjust line height */
+  }
+
+  #feedback {
+      margin-top: 60px; /* Reduce top margin */
+  }
+}
+
+@media (max-width: 768px) {
+  #feedback .image{
+    max-width: 80%;
+    text-align: center;
+  }
+  #feedback .heading h2 {
+      font-size: 32px; /* Further reduce heading size */
+      text-align: center; /* Center align for smaller screens */
+  }
+
+  #feedback .heading p {
+      font-size: 14px; /* Smaller text */
+      text-align: center; /* Center align */
+  }
+
+  #feedback .container .row {
+      flex-direction: column; /* Stack content vertically */
+      margin-top: 40px; /* Reduce spacing */
+  }
+
+  #feedback .container .text {
+      text-align: center; /* Center align text */
+      margin-top: 20px; /* Add spacing */
+  }
+
+  #feedback .container .text h4 {
+      font-size: 18px;
+  }
+
+  #feedback .container .text p {
+      font-size: 14px;
+      line-height: 170%;
+  }
+}
+
+@media (max-width: 576px) {
+  #feedback .image img{
+    width: 290px;
+    height: 300px;
+    text-align: left;
+  }
+  #feedback {
+      margin-top: 40px;
+      overflow: hidden; /* Smaller margin */
+  }
+
+  #feedback .heading h2 {
+      font-size: 28px;
+  }
+
+  #feedback .heading p {
+      font-size: 12px;
+  }
+
+  #feedback .container .text h4 {
+      font-size: 16px;
+  }
+
+  #feedback .container .text p {
+      font-size: 12px;
+      line-height: 160%;
+  }
+}
+/* ================ clint feedback end ============== */
