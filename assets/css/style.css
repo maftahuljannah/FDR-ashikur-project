@@ -654,3 +654,123 @@ nav .navbar-toggler{
     margin-top: 75px;  
 }
 /* ================ blog end ============== */
+
+/* ================ Newslatter start ============= */
+#newslatter{
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+#newslatter .container{
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    border-radius: 30px;
+    width: 1110px;
+    height: 295px; 
+}
+#newslatter .container .row{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#newslatter .container .row .text{
+    margin-top: 75px;
+} 
+#newslatter .container .row .text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #353535;   
+}
+#newslatter .container .row .text h3{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    color: #353535;
+}
+
+#newslatter .container .row .email input{
+    padding: 23px 39px;
+    border: none;
+    border-radius: 16px 0 0 16px;
+}
+#newslatter .container .row .email button{
+    padding: 23px 30px;
+    border: none;
+    border-radius: 0 16px 16px 0;
+    background: #ff6565;
+    color: #fff;
+}
+/* ================ Newslatter end ============== */
+
+/* ================ footer start ============= */
+#footer{
+    background: #575757;
+}
+#footer .row .footer-logo, .footer-text, .cta-button{
+    margin-top: 80px;
+}
+#footer .footer-text h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;    
+}
+#footer .footer-text p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;    
+}
+#footer button{
+    border-radius: 16px;
+    width: 174px;
+    height: 63px;
+    background: #fc0;
+    color: #fff;  
+    border: none;  
+}
+#footer .footer-contact{
+    margin-top: 120px;
+}
+#footer .footer-contact p strong{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;   
+}
+#footer .footer-contact p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;  
+}
+#footer .footer-social{
+    margin-top: 90px;
+}
+#footer .footer-social p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #fff;
+}
+#footer .footer-social a{
+    display: inline-block;
+    height: 28px;   
+    width: 28px;
+    line-height: 29px;
+    text-align: center;
+    border-radius: 100%;
+    border-radius: 50%;
+    background: #484848;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 10px;
+}
+/* ================ footer end ============== */

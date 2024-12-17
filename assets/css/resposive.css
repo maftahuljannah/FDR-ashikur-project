@@ -584,3 +584,296 @@
 }
 /* ================ blog end ============== */
 
+/* ================ newslatter start ============= */
+/* ================ Responsive Styles ============== */
+@media screen and (max-width: 768px) {
+  #newslatter{
+    overflow: hidden;
+  }
+  #newslatter .container {
+    padding: 20px;
+    border-radius: 20px;
+    width: 750px;
+    height: 400px; 
+  }
+
+  #newslatter .container .row .text {
+    margin-top: 20px;
+   
+  }
+  #newslatter .container .row .text p{
+    width: 80%;
+  }
+  #newslatter .container .row .text h3 {
+    font-size: 24px; /* Smaller font size for smaller screens */
+  }
+
+  #newslatter .container .row .email {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 70%;
+  }
+
+  #newslatter .container .row .email input {
+    border-radius: 16px;
+    margin-bottom: 10px;
+    width: 90%;
+    max-width: 95%;
+   
+  }
+
+  #newslatter .container .row .email button {
+    border-radius: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #newslatter{
+    overflow: hidden;
+  }
+  #newslatter .container {
+    padding: 15px;
+    border-radius: 20px;
+    width: 350px;
+    height: 320px; 
+  }
+
+  #newslatter .container .row .text h3 {
+    font-size: 20px;
+  }
+
+  #newslatter .container .row .text p {
+    font-size: 16px;
+  }
+
+  #newslatter .container .row .email input,
+  #newslatter .container .row .email button {
+    padding: 12px 10px;
+  }
+}
+
+/* ================ newslatter end ============== */
+
+/* ================ about banner start ============= */
+@media (max-width: 1024px) {
+  #about .container {
+      width: 90%; /* Scale down the width for smaller screens */
+      height: 160px; /* Adjust height */
+  }
+
+  #about .container h2 {
+      font-size: 36px; /* Reduce font size */
+  }
+
+  #about .container p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  #about .container p::before,
+  #about .container p::after {
+      width: 60px; /* Adjust the width of the border */
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+      margin-top: 60px;
+      overflow: hidden; /* Reduce margin for smaller screens */
+  }
+
+  #about .container {
+      height: auto; /* Let height adjust based on content */
+      padding: 20px; /* Add padding to ensure spacing */
+      flex-direction: column; /* Stack content vertically */
+  }
+
+  #about .container h2 {
+      font-size: 28px; /* Further reduce font size */
+      margin-bottom: 10px; /* Add spacing below heading */
+  }
+
+  #about .container p {
+      font-size: 11px; /* Reduce paragraph font size */
+  }
+
+  #about .container p::before,
+  #about .container p::after {
+      width: 40px; /* Smaller border width */
+  }
+}
+
+@media (max-width: 576px) {
+  #about {
+      margin-top: 40px; /* Further reduce top margin */
+      padding: 10px 0;
+      overflow: hidden;
+  }
+
+  #about .container {
+      border-radius: 10px; /* Reduce border radius for smaller screens */
+      padding: 15px; /* Add more padding for smaller layout */
+  }
+
+  #about .container h2 {
+      font-size: 24px; /* Adjust heading size */
+  }
+
+  #about .container p {
+      font-size: 9px; /* Make text smaller */
+  }
+
+  #about .container p::before,
+  #about .container p::after {
+      width: 20px; /* Adjust border size */
+  }
+}
+
+/* ================ about end ============== */
+
+/* ================ information start ============= */
+@media (max-width: 576px) {
+  #information {
+      margin-top: 50px;
+      overflow: hidden; /* Reduce top margin for smaller screens */
+  }
+
+  #information .row .info {
+      margin: 20px 0; /* Reduce margin further */
+  }
+
+  #information .row .info p {
+      font-size: 14px; /* Further adjust font size for very small screens */
+  }
+
+  #information .container .row a {
+      font-size: 12px;
+      padding: 6px 20px; /* Smaller padding for the button */
+  }
+}
+
+/* ================ information end ============== */
+
+/* ================  Experiance & Education start ============= */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #information{
+    overflow: hidden;
+  }
+  #quality .container .head {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center;    /* Center-align text for smaller screens */
+  }
+  
+  #quality .container .head h3 {
+      margin-right: 0; /* Remove fixed margin for smaller screens */
+      margin-top: 20px;
+  }
+
+  #quality .quality-wrapper .section {
+      margin: 20px 0 20px 20px; /* Reduce margin on smaller screens */
+  }
+
+  #quality .quality-wrapper .section h5, 
+  #quality .quality-wrapper .section h2, 
+  #quality .quality-wrapper .section p {
+      padding-left: 20px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* ================  Experiance & Education end ============== */
+
+/* ================ skills start ============= */
+@media (max-width: 768px) {
+  #skills .skillswrapper {
+      flex: 1 1 calc(50% - 20px); /* 2 items per row */
+      max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+ #skills .skillswrapper {
+      flex: 1 1 100%; /* 1 item per row */
+      max-width: 100%;
+  }
+}
+/* ================ skills end ============== */
+
+/* =============== project banner start ============= */
+@media (max-width: 1024px) {
+  #project .container {
+      width: 90%; /* Scale down the width for smaller screens */
+      height: 160px; /* Adjust height */
+  }
+
+  #project .container h2 {
+      font-size: 36px; /* Reduce font size */
+  }
+
+  #project .container p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  #project .container p::before,
+  #project .container p::after {
+      width: 60px; /* Adjust the width of the border */
+  }
+}
+
+@media (max-width: 768px) {
+  #project {
+      margin-top: 60px;
+      overflow: hidden; /* Reduce margin for smaller screens */
+  }
+
+  #project .container {
+      height: auto; /* Let height adjust based on content */
+      padding: 20px; /* Add padding to ensure spacing */
+      flex-direction: column; /* Stack content vertically */
+  }
+
+  #project .container h2 {
+      font-size: 28px; /* Further reduce font size */
+      margin-bottom: 10px; /* Add spacing below heading */
+  }
+
+  #project .container p {
+      font-size: 11px; /* Reduce paragraph font size */
+  }
+
+  #project .container p::before,
+  #project .container p::after {
+      width: 40px; /* Smaller border width */
+  }
+}
+
+@media (max-width: 576px) {
+  #project {
+      margin-top: 40px; /* Further reduce top margin */
+      padding: 10px 0;
+      overflow: hidden;
+  }
+
+  #project .container {
+      border-radius: 10px; /* Reduce border radius for smaller screens */
+      padding: 15px; /* Add more padding for smaller layout */
+  }
+
+  #project .container h2 {
+      font-size: 24px; /* Adjust heading size */
+  }
+
+  #project .container p {
+      font-size: 9px; /* Make text smaller */
+  }
+
+  #project .container p::before,
+  #project .container p::after {
+      width: 20px; /* Adjust border size */
+  }
+}
+
+/* ================ project banner end ============== */
+
+/* ================ nabs & tabs start ============= */
+/* ================ nabs & tabs end ============== */
