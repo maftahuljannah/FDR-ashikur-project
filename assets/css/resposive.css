@@ -876,4 +876,289 @@
 /* ================ project banner end ============== */
 
 /* ================ nabs & tabs start ============= */
+
+@media (max-width: 768px) {
+    #tabs .row {
+        text-align: center;
+    }
+
+    #tabs .col-md-6 {
+        margin-bottom: 20px; /* Add space between rows on small screens */
+    }
+}
 /* ================ nabs & tabs end ============== */
+
+/* ================ blog banner start ============= */
+@media (max-width: 1024px) {
+  #blog .container {
+      width: 90%; /* Scale down the width for smaller screens */
+      height: 160px; /* Adjust height */
+  }
+
+  #blog .container h2 {
+      font-size: 36px; /* Reduce font size */
+  }
+
+  #blog .container p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  #blog .container p::before,
+  #blog .container p::after {
+      width: 60px; /* Adjust the width of the border */
+  }
+}
+
+@media (max-width: 768px) {
+  #blog {
+      margin-top: 60px;
+      overflow: hidden; /* Reduce margin for smaller screens */
+  }
+
+  #blog .container {
+      height: auto; /* Let height adjust based on content */
+      padding: 20px; /* Add padding to ensure spacing */
+      flex-direction: column; /* Stack content vertically */
+  }
+
+  #blog .container h2 {
+      font-size: 28px; /* Further reduce font size */
+      margin-bottom: 10px; /* Add spacing below heading */
+  }
+
+  #blog .container p {
+      font-size: 11px; /* Reduce paragraph font size */
+  }
+
+  #blog .container p::before,
+  #blog .container p::after {
+      width: 40px; /* Smaller border width */
+  }
+}
+
+@media (max-width: 576px) {
+  #blog {
+      margin-top: 40px; /* Further reduce top margin */
+      padding: 10px 0;
+      overflow: hidden;
+  }
+
+  #blog .container {
+      border-radius: 10px; /* Reduce border radius for smaller screens */
+      padding: 15px; /* Add more padding for smaller layout */
+  }
+
+  #blog .container h2 {
+      font-size: 24px; /* Adjust heading size */
+  }
+  #blog .container p {
+      font-size: 9px; /* Make text smaller */
+  }
+
+  #blog .container p::before,
+  #blog .container p::after {
+      width: 20px; /* Adjust border size */
+  }
+}
+
+/* ================ blog banner end ============== */
+
+/* ================ digital marketing start ============= */
+@media (max-width: 768px) {
+  #marketing {
+      margin-top: 50px;
+      overflow: hidden; /* Adjust margin for smaller screens */
+  }
+
+  #marketing .col-lg-6 img{
+  margin: 5px auto;
+  }
+  #marketing .text h3 {
+      font-size: 24px; /* Reduce heading size */
+  }
+
+  #marketing .text p, #marketing .text h5 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-top: 15px;
+  }
+
+  #marketing .text h5 span {
+      font-size: 14px; /* Adjust span font size */
+      margin-left: 10px; /* Reduce left margin */
+  }
+}
+
+@media (max-width: 480px) {
+  #marketing{
+    overflow: hidden;
+  }
+  #marketing .col-lg-6 img{
+    margin: 0 auto;
+  }
+  #marketing .text h3 {
+      font-size: 20px; /* Further reduce heading size */
+  }
+
+  #marketing .text p, #marketing .text h5 {
+      font-size: 14px; /* Adjust font size further */
+  }
+
+  #marketing {
+      margin-top: 30px; /* Further adjust margin for very small screens */
+      padding: 10px;
+  }
+}
+/* ================ digital marketing end ============== */
+
+/* ================ blog-card start ============= */
+@media (max-width: 992px) {
+  #blog-card{
+    overflow: hidden;
+  }
+  #blog-card .container .content {
+      margin-left: 20px; /* Reduce left margin on tablets */
+  }
+  #blog-card .container .row{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #blog-card .container .col-lg-4 {
+      flex: 0 0 50%; /* Make columns take 50% width on medium screens */
+      max-width: 50%;
+  }
+  #blog-card .container .col-lg-4 img{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #blog-card{
+    overflow: hidden;
+  }
+  #blog-card {
+      margin-top: 50px; /* Adjust top margin for smaller screens */
+  }
+
+  #blog-card .container .content {
+      margin-left: 10px; /* Further reduce left margin */
+  }
+
+  #blog-card .container .col-lg-4 {
+      flex: 0 0 100%; /* Make columns stack vertically */
+      max-width: 100%;
+  }
+
+  #blog-card .container .content h3 {
+      font-size: 18px; /* Reduce heading size */
+  }
+
+  #blog-card .container .content p {
+      font-size: 14px; /* Reduce paragraph font size */
+  }
+
+  #blog-card .content h5 {
+      font-size: 14px; /* Adjust h5 font size */
+  }
+}
+
+@media (max-width: 480px) {
+  #blog-card{
+    overflow: hidden;
+  }
+  #blog-card {
+      padding: 10px; /* Reduce padding for very small screens */
+      margin-top: 30px; /* Further adjust top margin */
+  }
+
+  #blog-card .container .content {
+      margin-left: 0; /* Remove left margin */
+      text-align: center; /* Ensure everything is centered */
+  }
+
+  #blog-card .container .content h3 {
+      font-size: 16px; /* Further reduce heading size */
+  }
+
+  #blog-card .container .content p {
+      font-size: 12px; /* Further reduce paragraph font size */
+  }
+
+  #blog-card .content h5 {
+      font-size: 12px; /* Further adjust h5 font size */
+  }
+}
+/* ================ blog-card end ============== */
+
+/* ================ contact banner start ============= */
+@media (max-width: 1024px) {
+  #contact .container {
+      width: 90%; /* Scale down the width for smaller screens */
+      height: 160px; /* Adjust height */
+  }
+
+  #contact .container h2 {
+      font-size: 36px; /* Reduce font size */
+  }
+
+  #contact .container p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+    #contact .container p::before,
+    #contact .container p::after {
+      width: 60px; /* Adjust the width of the border */
+  }
+}
+
+@media (max-width: 768px) {
+    #contact {
+      margin-top: 60px;
+      overflow: hidden;
+    }
+    #contact .container {
+      height: auto; /* Let height adjust based on content */
+      padding: 20px; /* Add padding to ensure spacing */
+      flex-direction: column; /* Stack content vertically */
+  }
+
+    #contact .container h2 {
+      font-size: 28px; /* Further reduce font size */
+      margin-bottom: 10px; /* Add spacing below heading */
+  }
+
+    #contact .container p {
+      font-size: 11px; /* Reduce paragraph font size */
+  }
+
+    #contact.container p::before,
+    #contact .container p::after {
+      width: 40px; /* Smaller border width */
+  }
+}
+
+@media (max-width: 576px) {
+    #contact {
+      margin-top: 40px; /* Further reduce top margin */
+      padding: 10px 0;
+      overflow: hidden;
+  }
+
+    #contact .container {
+      border-radius: 10px; /* Reduce border radius for smaller screens */
+      padding: 15px; /* Add more padding for smaller layout */
+  }
+
+    #contact .container h2 {
+      font-size: 24px; /* Adjust heading size */
+  }
+    #contact .container p {
+      font-size: 9px; /* Make text smaller */
+  }
+
+    #contact .container p::before,
+    #contact .container p::after {
+      width: 20px; /* Adjust border size */
+  }
+}
+
+/* ================ contact banner end ============== */

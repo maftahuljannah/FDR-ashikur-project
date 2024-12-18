@@ -45,13 +45,13 @@ nav .navbar-toggler{
     padding: 0;
 }
 /* ================ navbar end ============== */
-/* ================ banner start ============= */
-#project{
+/* ================ blog start ============= */
+#blog{
     margin-top: 90px;
     padding: 20px 0;
     text-align: center; /* Center the text */
 }
-#project .container{
+#blog .container{
     background-image: url(../images/about-bg.png);  
     background-repeat: no-repeat; 
     background-size: cover;
@@ -62,14 +62,14 @@ nav .navbar-toggler{
   align-items: center;
   justify-content: center;
 }
-#project  .container h2{
+#blog .container h2{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 46px;
     color: #fff; 
 
 }
-#project .container p{
+#blog .container p{
     position: relative;
     font-family: var(--font-family);
     font-weight: 600;
@@ -78,8 +78,8 @@ nav .navbar-toggler{
     color: #fff; 
     margin: 0;   
 }
-#project .container p::before,
-#project .container p::after{
+#blog .container p::before,
+#blog .container p::after{
     content: '';
     display: inline-block;
     height: 2px;
@@ -89,67 +89,98 @@ nav .navbar-toggler{
     margin: 0 10px; /* Space between text and border */  
 }
 
-/* ================ project banner end ============== */
+/* ================ blog banner end ============== */
 
-/* ================ nabs & tabs start ============= */
-#tabs{
-    margin-top: 130px;
+/* ================ digital marketing start ============= */
+#marketing{
+    margin-top: 90px;
 }
-/* Center navigation tabs */
-#tabs .nav-pills {
-    display: flex;
-    justify-content: center;
-    gap: 15px; /* Space between tabs */
+#marketing .container .row{
+justify-content: space-evenly;
 }
-
-#tabs .nav-pills .nav-link {
-    font-size: 16px;
+#marketing .container .col-lg-6 img{
+    margin-left: 80px;
+}
+#marketing .text h3{
+    font-family: var(--font-family);
     font-weight: 600;
-    color: #555;
-    padding: 8px 15px;
-    border-radius: 25px; /* Rounded edges */
+    font-size: 30px;
+    line-height: 164%;
+    color: #353535;
 }
-
-#tabs .nav-pills .nav-link.active {
-    background-color: #f16500;
-    color: #fff;
-}
-
-/* Center tab content images */
-#tabs .tab-content {
-    margin-top: 30px;
-}
-#tabs .col-lg-6 p{
+#marketing .text p{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 15px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #7a7a7a;    
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin-top: 40px; 
+    width: 90%;   
 }
-#tabs .col-lg-6 h3{
+#marketing .text h5{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #7a7a7a; 
+    margin-top: 35px; 
+}
+#marketing .text h5 span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 190%;
+    color: #353535;
+    margin-left: 30px;    
+}
+/* ================ digital marketing end ============== */
+
+/* ================ blog card start ============= */
+#blog-card{
+    margin-top: 90px;
+}
+#blog-card .row img{
+ text-align: center;
+ margin-left: 50px;
+}
+#blog-card .container .content{
+    margin-top: 15px;
+    margin-left: 50px;   
+}
+#blog-card .container .col-lg-4{
+    margin: 8px 0;
+}
+
+#blog-card .container .content h3{
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 24px;
-    color: #353535;     
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;    
 }
-#tabs .tab-pane img {
-    margin: 15px auto;
-    border-radius: 10px;
+#blog-card .container .content p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #7a7a7a;    
 }
-#tabs .col-lg-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-aligns content */
+#blog-card .content h5{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #7a7a7a;  
 }
-
-/* Text container styling */
-#tabs .text {
-    margin-top: 10px; /* Space between image and text block */
+#blog-card .content h5 span{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 190%;
+    color: #353535;
+    margin-left: 30px;    
 }
-
-
-/* ================ nabs & tabs  end ============== */
+/* ================ blog card end ============== */
 
 /* ================ footer start ============= */
 #footer{
@@ -225,4 +256,5 @@ nav .navbar-toggler{
     margin: 0 10px;
 }
 /* ================ footer end ============== */
+
 

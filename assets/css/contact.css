@@ -45,13 +45,13 @@ nav .navbar-toggler{
     padding: 0;
 }
 /* ================ navbar end ============== */
-/* ================ banner start ============= */
-#project{
+/* ================ contact banner start ============= */
+#contact{
     margin-top: 90px;
     padding: 20px 0;
     text-align: center; /* Center the text */
 }
-#project .container{
+#contact .container{
     background-image: url(../images/about-bg.png);  
     background-repeat: no-repeat; 
     background-size: cover;
@@ -62,14 +62,14 @@ nav .navbar-toggler{
   align-items: center;
   justify-content: center;
 }
-#project  .container h2{
+#contact  .container h2{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 46px;
     color: #fff; 
 
 }
-#project .container p{
+#contact .container p{
     position: relative;
     font-family: var(--font-family);
     font-weight: 600;
@@ -78,8 +78,8 @@ nav .navbar-toggler{
     color: #fff; 
     margin: 0;   
 }
-#project .container p::before,
-#project .container p::after{
+#contact .container p::before,
+#contact .container p::after{
     content: '';
     display: inline-block;
     height: 2px;
@@ -89,67 +89,86 @@ nav .navbar-toggler{
     margin: 0 10px; /* Space between text and border */  
 }
 
-/* ================ project banner end ============== */
+/* ================ contact banner end ============== */
 
-/* ================ nabs & tabs start ============= */
-#tabs{
-    margin-top: 130px;
+/* ================ contact info start ============= */
+#info{
+    margin-top: 90px;
 }
-/* Center navigation tabs */
-#tabs .nav-pills {
+#info .infowrapper{
     display: flex;
-    justify-content: center;
-    gap: 15px; /* Space between tabs */
+    margin-left: 65px;
 }
-
-#tabs .nav-pills .nav-link {
-    font-size: 16px;
-    font-weight: 600;
-    color: #555;
-    padding: 8px 15px;
-    border-radius: 25px; /* Rounded edges */
+#info .infowrapper img{
+    object-fit: contain;
 }
-
-#tabs .nav-pills .nav-link.active {
-    background-color: #f16500;
-    color: #fff;
+#info .text{
+    margin-left: 20px;
 }
-
-/* Center tab content images */
-#tabs .tab-content {
-    margin-top: 30px;
+#info .text h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 190%;
+    color: #353535;   
 }
-#tabs .col-lg-6 p{
+#info .text p{
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 15px;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #7a7a7a;    
-}
-#tabs .col-lg-6 h3{
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 24px;
-    color: #353535;     
-}
-#tabs .tab-pane img {
-    margin: 15px auto;
-    border-radius: 10px;
-}
-#tabs .col-lg-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-aligns content */
+    font-size: 17px;
+    line-height: 190%;
+    color: #7a7a7a;   
 }
 
-/* Text container styling */
-#tabs .text {
-    margin-top: 10px; /* Space between image and text block */
-}
-
-
-/* ================ nabs & tabs  end ============== */
+#info .container .row .main-form .box{
+    padding: 0 0 0 15px;
+    }
+    #info .container .row .main-form{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #info .container .row .main-form .box input,
+    #info .container .row .main-form .area input{
+        padding: 16px 0 16px 32px;
+        border-radius: 12px;
+        font-family: var(--poppins);
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 190%;
+        color: #7a7a7a;
+    }
+    #info .container .row .main-form .area input{
+        padding-bottom: 195px;
+        margin-bottom: 21px;
+    }
+    #info .container .row .main-form .area{
+        padding: 0 0 0 15px;
+    }
+    #info .container .row .main-form button{
+        background-color: #FFCC00;
+        padding: 11px 46px;
+        font-family: var(--poppins);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 180%;
+        text-align: center;
+        color: #fff;
+        border-radius: 15px;
+    }
+    #info .container .row .main-form .button{
+        padding: 0 0 0 15px;
+    }
+    #info .container .row .main-form button:hover{
+        color: #000;
+    }
+    @media (max-width: 991.98px){
+        #info .container .row .main-form{
+            justify-content: space-between;
+        }
+    }
+    
+/* ================ contact infoend ============== */
 
 /* ================ footer start ============= */
 #footer{
